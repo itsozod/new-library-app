@@ -171,7 +171,7 @@ function showDefaultBooks(data) {
     bookEl.classList.add("bookCard");
     bookEl.innerHTML = `
     <h3>${book.name}</h3>
-    <img class="bookImg" src="/images/book.jpg">
+    <img class="bookImg" src="images/book.jpg">
     <p>${book.author}</p>
     <p class="price-tag">${book.price} ${book.currency}</p>
     <button class="buy">Buy</button>
